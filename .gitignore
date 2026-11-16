@@ -1,0 +1,14 @@
+data/raw/
+data/cache/
+data/synthetic/
+*.xlsx
+!tests/fixtures/*.xlsx
+INTERVIEW_DEFENCE.md
+results/real/
+results/synthetic/
+results/locked/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
