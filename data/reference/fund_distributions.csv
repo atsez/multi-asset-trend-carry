@@ -1,0 +1,5 @@
+# Fund distributions for AQMIX and DBMF (ex-date, amount per share in USD).
+# To be filled in week 3 from the funds' published distribution histories. Each row is only
+# applied if the fund price fell by roughly that amount on the ex-date (see
+# analysis.adjust_distributions); the check result is written to results tables.
+fund,ex_date,amount

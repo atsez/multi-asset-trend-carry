@@ -1,0 +1,9 @@
+# Manual data decisions, applied after the automatic cleaning rules.
+# Each entry sets the listed prices to missing. Keep a reason for every line.
+prices:
+  - market: CF
+    dates: ["1999-01-04"]
+    reason: "Repeats the 23 Dec 1998 close after the euro changeover closure; not a real print."
+# Automatic rules (see checks.clean_prices) already handle:
+#   runs of three or more identical closes (JGB Sept to Nov 1999, NZD 1997 to 2001,
+#   Hang Seng holiday fills), non-positive prices.
